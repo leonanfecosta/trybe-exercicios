@@ -1,4 +1,4 @@
-## O que vamos aprendi?
+## O que aprendi?
 
 Conceitos do controle de versão e os diferentes tipos de sistemas de controle de versão disponíveis.
 
