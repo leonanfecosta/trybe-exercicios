@@ -15,7 +15,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 2: Git & GitHub
 
-- [x] 2-1: _O que é e para que serve?_
+- [x] 2-1: _[O que é e para que serve?](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-02-git-github-e-internet/dia-01-git-e-github-o-que-e-e-para-que-serve)_
 - [ ] 2-2: _[Entendendo os comandos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos)_
 - [ ] 2-3: _Internet - Entendendo como ela funciona_
 
