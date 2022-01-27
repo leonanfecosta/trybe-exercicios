@@ -17,15 +17,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 2-1: _[O que é e para que serve?](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-02-git-github-e-internet/dia-01-git-e-github-o-que-e-e-para-que-serve)_
 - [x] 2-2: _[Entendendo os comandos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-02-git-github-e-internet/dia-02-git-e-github-entendendo-os-comandos)_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+- [x] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS
 
-- [ ] 3-1: _HTML & CSS - Estruturas de página_
+- [x] 3-1: [_HTML & CSS - Estruturas de página_](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-03-introdu%C3%A7%C3%A3o-a-html-e-css/dia-01-html-e-css-estruturas-de-pagina)
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML Semântico_
-- [ ] 3-5: _[Projeto - HTML & CSS]()_
+- [ ] 3-5: _Projeto - HTML & CSS_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 4-2: _JavaScript - Array e loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e funções_
-- [ ] 4-5: _[Projeto - Playground Functions]()_
+- [ ] 4-5: _Projeto - Playground Functions_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
