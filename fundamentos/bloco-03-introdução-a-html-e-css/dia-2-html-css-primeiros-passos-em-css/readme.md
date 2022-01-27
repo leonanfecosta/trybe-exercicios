@@ -11,6 +11,7 @@
 
 Dado o código abaixo:
 
+```html
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -28,6 +29,8 @@ Dado o código abaixo:
     </ul>
   </body>
 </html>
+```
+
 
 ## Parte 1
 
