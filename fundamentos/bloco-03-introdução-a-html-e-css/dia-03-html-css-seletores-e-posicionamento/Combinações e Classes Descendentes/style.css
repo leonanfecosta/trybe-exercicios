@@ -1,7 +1,66 @@
+/* - Faça todas as tags Header (h1, h2...) possuírem cor de fonte vermelha e,
+se alguma delas estiver em itálico, aumente seu tamanho para 40px e acrescente
+uma borda de 1px preta e sólida. */
+ol li{
+    background-color: yellow;
+}
+
 ol .par{
     color: green;
 }
 
 ol .impar{
+    text-transform: uppercase;
+}
+/* - Faça todas as li's terem 20px de tamanho de fonte e, para todo texto em itálico
+dentro de alguma li, utilize a propriedade font-weight para deixá-lo negrito. */
+
+h1, h3 {
+    color: red;
+}
+h1 em, h3 em {
+    font-size: 40px;
+    border: 1px black solid; 
+}
+/* Faça todas as li's terem 20px de tamanho de fonte e, para todo texto em itálico dentro de alguma li, utilize a propriedade font-weight para deixá-lo negrito. */
+li{
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+/* Na listagem de linguagens de programação, faça com que as 3 primeiras da lista possuam cor de fonte azul e, se alguma possuir "java*" no texto, utilize uma cor de fundo rosa. */
+.font-blue{
+    color: blue;
+}
+#bg-pink{
+    background-color: pink;
+}
+/* (Bônus) Para cada link na lista de aliados da pessoa desenvolvedora, faça com que ao passar o mouse sobre cada um, o texto fique em negrito e assuma a cor de fonte "temática do site"
+ */
+#aliados li a[href*="stackoverflow"]:hover{
+    font-weight: bold;
+    color: orange;
+}
+
+#aliados li a[href*="w3schools"]:hover{
+    font-weight: bold;
+    color: greenyellow;
+}
+
+#aliados li a[href*="mozilla"]:hover{
+    font-weight: bold;
+    color: black;
+}
+
+#aliados li a[href*="devdocs"]:hover{
+    font-weight: bold;
     color: yellow;
+}
+
+#aliados li a[href*="trybe"]:hover{
+    font-weight: bold;
+    color: green;
 }
