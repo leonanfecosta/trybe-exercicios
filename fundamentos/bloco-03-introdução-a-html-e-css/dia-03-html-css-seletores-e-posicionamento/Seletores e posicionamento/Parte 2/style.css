@@ -1,0 +1,28 @@
+div:hover{
+    border: 1px solid black;
+}
+
+.div1{
+    color:#56AB91 ;
+}
+
+.div2{
+    color:#14746F ;
+}
+
+.div3{
+    color:#248277 ;
+    height: 50px;
+    
+}
+
+.div4{
+    color:#036666 ;
+}
+
+.div5{
+    color:#88D4AB ;
+}
+.italico{
+    font-style: italic;
+}
