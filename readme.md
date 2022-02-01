@@ -10,7 +10,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Introdução - Unix & Shell
 
--:white_check_mark: 1-3: [_Unix & Shell- Part 1_](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-01-unix-bash-e-shell-script/dia-03-unix-e-bash-part-1)
+:white_check_mark: 1-3: [_Unix & Shell- Part 1_](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-01-unix-bash-e-shell-script/dia-03-unix-e-bash-part-1)
 - [x] 1-4: _[Unix & Shell- Part 2](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-01-unix-bash-e-shell-script/dia-04-unix-e-bash-part-2)_
 
 ##### Bloco 2: Git & GitHub
