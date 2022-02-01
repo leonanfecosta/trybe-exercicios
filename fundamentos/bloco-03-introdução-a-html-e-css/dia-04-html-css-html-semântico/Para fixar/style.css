@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+}
+
+.first {
+  background-color: rgb(235, 200, 84);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+  margin-left: 40%;
+}
+
+.second {
+  background-color: rgb(219, 219, 219);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+  margin-left: 25%;
+}
+
+.third {
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+}
+
+#premios ul li {
+  display: inline-block;
+}
+#podio ul li {
+  display: inline-block;
+}
+h3 {
+  text-align: center;
+}
+#primeiro{
+    margin-left: 25%;
+}
+#segundo{
+    margin-left: 27%;
+}
+#terceiro{
+    margin-left: 26%;
+}
