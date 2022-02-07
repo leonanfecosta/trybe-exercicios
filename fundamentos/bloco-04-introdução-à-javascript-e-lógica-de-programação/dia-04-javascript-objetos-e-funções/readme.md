@@ -14,8 +14,6 @@ Agora vamos fazer alguns exercícios de fixação para consolidar os conheciment
 
 **1 -** Crie um objeto `player` contendo as variáveis listadas abaixo.
 
-Copiar
-
 ```javascript
 let name = 'Marta';
 let lastName = 'Silva';
@@ -27,8 +25,6 @@ let medals = { golden: 2, silver: 3 };
 
 **3 -** Adicione ao objeto a chave `bestInTheWorld` e atribua a esta chave um `array` contendo as datas em que a jogadora Marta foi considerada a melhor do mundo.
 
-Copiar
-
 ```javascript
 [2006, 2007, 2008, 2009, 2010, 2018]
 ```
@@ -38,5 +34,29 @@ Copiar
 **5 -** Acesse a chave `medals` e faça um `console.log` no seguinte formato: "A jogadora possui 2 medalhas de ouro e 3 medalhas de prata".
 
 Agora veremos uma variação do laço `for` , que nos garante facilidade ao lidar com objetos.
+
+------
+
+# for/in e for/of
+
+**1 -** Usando o objeto abaixo, utilize `for/in` e imprima no console a mensagem `'Olá xxxxx'` para cada nome, substituindo o `xxxxx` pelo nome em questão.
+
+```shell
+let names = {
+  person1: 'João',
+  person2: 'Maria',
+  person3: 'Jorge',
+};
+```
+
+**2 -** Usando o objeto abaixo, utilize `for/in` e imprima um `console.log` com as chaves e valores desse objeto.
+
+```shell
+let car = {
+  model: 'A3 Sedan',
+  manufacturer: 'Audi',
+  year: 2020
+};
+```
 
 ------
