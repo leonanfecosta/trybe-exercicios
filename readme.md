@@ -10,7 +10,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Introdução - Unix & Shell
 
-:white_check_mark: 1-3: [_Unix & Shell- Part 1_](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-01-unix-bash-e-shell-script/dia-03-unix-e-bash-part-1)
+- [x] 1-3: [_Unix & Shell- Part 1_](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-01-unix-bash-e-shell-script/dia-03-unix-e-bash-part-1)
 - [x] 1-4: _[Unix & Shell- Part 2](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-01-unix-bash-e-shell-script/dia-04-unix-e-bash-part-2)_
 
 ##### Bloco 2: Git & GitHub
@@ -24,15 +24,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-1: [_HTML & CSS - Estruturas de página_](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-03-introdu%C3%A7%C3%A3o-a-html-e-css/dia-01-html-e-css-estruturas-de-pagina)
 - [x] 3-2: _[HTML & CSS - Primeiros passos em CSS](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-03-introdu%C3%A7%C3%A3o-a-html-e-css/dia-02-html-css-primeiros-passos-em-css)_
 - [x] 3-3: _[HTML & CSS - Seletores e posicionamento](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-03-introdu%C3%A7%C3%A3o-a-html-e-css/dia-03-html-css-seletores-e-posicionamento)_
-- [ ] 3-4: _HTML Semântico_
+- [x] 3-4: _[HTML Semântico](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-03-introdu%C3%A7%C3%A3o-a-html-e-css/dia-04-html-css-html-sem%C3%A2ntico)_
 - [ ] 3-5: _Projeto - HTML & CSS_
 
 ##### Bloco 4: Introdução - JavaScript
 
-- [ ] 4-1: _JavaScript - Primeiros passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [ ] 4-4: _JavaScript - Objetos e funções_
+- [x] 4-1: _[JavaScript - Primeiros passos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-04-introdu%C3%A7%C3%A3o-%C3%A0-javascript-e-l%C3%B3gica-de-programa%C3%A7%C3%A3o/dia-01-javascript-primeiros-passos)_
+- [x] 4-2: _[JavaScript - Array e loop For](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-04-introdu%C3%A7%C3%A3o-%C3%A0-javascript-e-l%C3%B3gica-de-programa%C3%A7%C3%A3o/dia-02-javascript-array-e-loop-for)_
+- [x] 4-3: _[JavaScript - Lógica de Programação e Algoritmos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-04-introdu%C3%A7%C3%A3o-%C3%A0-javascript-e-l%C3%B3gica-de-programa%C3%A7%C3%A3o/dia-03-javascript-l%C3%B3gica-de-programa%C3%A7%C3%A3o-e-algoritmos)_
+- [x] 4-4: _[JavaScript - Objetos e funções](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-04-introdu%C3%A7%C3%A3o-%C3%A0-javascript-e-l%C3%B3gica-de-programa%C3%A7%C3%A3o/dia-04-javascript-objetos-e-fun%C3%A7%C3%B5es)_
 - [ ] 4-5: _Projeto - Playground Functions_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
