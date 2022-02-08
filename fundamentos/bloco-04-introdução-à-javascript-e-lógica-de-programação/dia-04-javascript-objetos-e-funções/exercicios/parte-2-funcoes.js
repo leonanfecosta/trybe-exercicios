@@ -86,21 +86,24 @@ console.log(somaNum(9));
 //7 - Crie uma função que receba uma string word e outra string ending . Verifique se a string ending é o final da string word . Considere que a string ending sempre será menor que a string word .
 
 function verificaFimPalavra(palavra, fimPalavra) {
-    let inversoPalavra = palavra.split('').reverse().join('');
-    let inversoFimPalavra = fimPalavra.split('').reverse().join('');
-    let result;
-  
-    for (let index = 0; index < inversoFimPalavra.length; index += 1) {
-      if (inversoPalavra[index] !== inversoFimPalavra[index]) {
-        result = false;
-        break;
-      } else {
-        result = true;
-      }
+  let inversoPalavra = palavra.split("").reverse().join("");
+  let inversoFimPalavra = fimPalavra.split("").reverse().join("");
+  let result;
+  let contador = 0;
+
+  for (let i = 0; i < inversoFimPalavra.length; i += 1) {
+    if (inversoFimPalavra[i] == inversoPalavra[i]) {
+      contador += 1;
     }
-    
-    return result;
   }
-  
-  console.log(verificaFimPalavra('trybe', 'be')); //true
-  console.log(verificaFimPalavra('joaofernando', 'fernan')); //false
+  if (contador == inversoFimPalavra.length) {
+    result = true;
+  } else {
+    result = false;
+  }
+
+  return result;
+}
+
+console.log(verificaFimPalavra("trybe", "be")); //true
+console.log(verificaFimPalavra("joaofernando", "fernan")); //false
