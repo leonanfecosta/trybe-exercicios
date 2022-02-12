@@ -210,20 +210,24 @@ Implemente uma função que adiciona um evento que, ao clicar em um dia do mês 
 Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119) . */
 
 function setDayColor() {
-  let selectedTask = document.getElementsByClassName("task selected");
-  let days = document.querySelector("#days");
-  let taskDiv = document.querySelector(".task");
-  let taskColor = taskDiv.style.backgroundColor;
+  let selectedTask = document.getElementsByClassName("task selected"); // seleciona a div da tarefa selecionada 
+  let days = document.querySelector("#days"); //seleciona a lista de dias
+  let taskDiv = document.querySelector(".task"); // div que está a tarefa sem estar selecionada
+  let taskColor = taskDiv.style.backgroundColor; // seleciona a cor da tarefa selecionada
 
   days.addEventListener("click", function (event) {
-    let eventTargetColor = event.target.style.color;
+    let eventTargetColor = event.target.style.color; //seleciona a cor que está nos dias
 
-    if (selectedTask.length > 0 && eventTargetColor !== taskColor) {
-      let color = selectedTask[0].style.backgroundColor;
-      event.target.style.color = color;
-    } else if (eventTargetColor === taskColor && selectedTask.length !== 0) {
-      event.target.style.color = "rgb(119,119,119)";
+    if (selectedTask.length > 0 && eventTargetColor !== taskColor) { //se a div da tarefa estiver selecioanda e a cor do dia for diferente da cor da tarefa
+      let color = selectedTask[0].style.backgroundColor; // adcionar a cor que esta na tarefa selecionada a uma variavel
+      event.target.style.color = color; //atribui a cor ao dia clicado
+    } else if (eventTargetColor === taskColor && selectedTask.length !== 0) { //se a cor do dia for igual a cor da tarefa e tiver alguma tarefa selecionada
+      event.target.style.color = "rgb(119,119,119)"; //retona a cor original 
     }
   });
 }
 setDayColor();
+
+/* Vamos adicionar compromissos ao seu calendário? Implemente uma função que, ao digitar um compromisso na caixa de texto "COMPROMISSOS", adiciona o item à lista "MEUS COMPROMISSOS" ao clicar no botão "ADICIONAR".
+Se nenhum caractere for inserido no campo input , a função deve retornar um alert com uma mensagem de erro ao clicar em "ADICIONAR".
+Ao pressionar a tecla "enter" o evento também deverá ser disparado. */
