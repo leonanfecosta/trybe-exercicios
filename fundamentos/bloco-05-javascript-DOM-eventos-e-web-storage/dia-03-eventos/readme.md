@@ -163,3 +163,9 @@ firstLi.addEventListener('dblclick', resetText);
 // navegador fará esse trabalho por você, não é legal? Desse jeito, o
 // event.target na nossa função retornará o objeto 'firstLi'.
 ```
+
+------
+
+# Calendário Tryber
+
+O objetivo destes exercícios é colocar em prática o que você aprendeu sobre DOM, seletores, manipulação de elementos *HTML* e Eventos em *JavaScript* . Por isso, você deve fazer os exercícios utilizando apenas código *JavaScript*, o qual deve ser inserido no arquivo "scripts.js".
