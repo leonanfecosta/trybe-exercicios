@@ -86,14 +86,52 @@ function displayHolidays() {
   let originalColor = "rgb(238,238,238)";
   let newColor = "rgb(153, 194, 255)";
 
-  getHolidayButton.addEventListener("click",function() {
-      for (let i = 0; i < getHolidays.length; i += 1) {
-          if (getHolidays[i].style.backgroundColor === newColor){
-              getHolidays[i].style.backgroundColor = originalColor;
-          } else {
-              getHolidays[i].style.backgroundColor = newColor;
-          }
+  getHolidayButton.addEventListener("click", function () {
+    for (let i = 0; i < getHolidays.length; i += 1) {
+      if (getHolidays[i].style.backgroundColor === newColor) {
+        getHolidays[i].style.backgroundColor = originalColor;
+      } else {
+        getHolidays[i].style.backgroundColor = newColor;
       }
+    }
   });
-};
+}
 displayHolidays();
+
+/* Exercício 4:
+Implemente uma função que receba como parâmetro a string "Sexta-feira" e crie dinamicamente um botão com o nome "Sexta-feira".
+Adicione a este botão o ID "btn-friday" .
+Adicione este botão como filho/filha da tag <div> com classe "buttons-container" . */
+function creatFridayButton(buttonName) {
+  let buttonContainer = document.querySelector(".buttons-container");
+  let newButton = document.createElement("button");
+
+  newButton.innerHTML = buttonName;
+  newButton.id = "btn-friday";
+
+  buttonContainer.appendChild(newButton);
+}
+
+creatFridayButton("Sextou?");
+
+/* Exercício 5:
+Implemente uma função que adicione ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.
+É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial exibindo os dias. */
+
+function displayFridays(dezFridays) {
+  let getFridayButton = document.querySelector("#btn-friday");
+  let getFriday = document.getElementsByClassName("friday");
+  let newText = "Sextou! o/";
+
+  getFridayButton.addEventListener("click", function () {
+    for (let i = 0; i < getFriday.length; i += 1) {
+      if (getFriday[i].innerHTML !== newText) {
+        getFriday[i].innerHTML = newText;
+      } else {
+        getFriday[i].innerHTML = dezFridays[i];
+      }
+    }
+  });
+}
+let dezFridays = [4, 11, 18, 25];
+displayFridays(dezFridays);
