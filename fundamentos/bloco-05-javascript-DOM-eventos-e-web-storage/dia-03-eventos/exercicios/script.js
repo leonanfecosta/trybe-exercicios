@@ -184,3 +184,46 @@ function newTaskDiv(color) {
   taskContainer.appendChild(newTask);
 }
 newTaskDiv("rgb(0, 102, 51)");
+
+/* Exercício 9
+Implemente uma função que adiciona um evento que ao clicar no elemento com a tag <div> referente a cor da sua tarefa, atribua a este elemento a classe task selected , ou seja, quando sua tarefa possuir a classe task selected ela estará selecionada.
+Ao clicar novamente no elemento a sua classe deverá voltar a ser somente task , ou seja, esta tarefa está deixando de ser uma tarefa selecionada.
+ */
+
+function setTaskClass() {
+  let selectedTask = document.getElementsByClassName("task selected");
+  let myTasks = document.querySelector(".task");
+
+  myTasks.addEventListener("click", function (event) {
+    if (selectedTask.length === 0) {
+      event.target.className = "task selected";
+    } else {
+      event.target.className = "task";
+    }
+  });
+}
+
+setTaskClass();
+
+/* Exercício 10:
+Implemente uma função que adiciona um evento que, ao clicar em um dia do mês no calendário, atribua a este dia a cor da legenda da sua tarefa selecionada.
+Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119) . */
+
+function setDayColor() {
+  let selectedTask = document.getElementsByClassName("task selected");
+  let days = document.querySelector("#days");
+  let taskDiv = document.querySelector(".task");
+  let taskColor = taskDiv.style.backgroundColor;
+
+  days.addEventListener("click", function (event) {
+    let eventTargetColor = event.target.style.color;
+
+    if (selectedTask.length > 0 && eventTargetColor !== taskColor) {
+      let color = selectedTask[0].style.backgroundColor;
+      event.target.style.color = color;
+    } else if (eventTargetColor === taskColor && selectedTask.length !== 0) {
+      event.target.style.color = "rgb(119,119,119)";
+    }
+  });
+}
+setDayColor();
