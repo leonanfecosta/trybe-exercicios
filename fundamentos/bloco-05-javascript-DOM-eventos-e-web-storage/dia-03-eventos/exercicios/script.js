@@ -210,19 +210,21 @@ Implemente uma função que adiciona um evento que, ao clicar em um dia do mês 
 Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119) . */
 
 function setDayColor() {
-  let selectedTask = document.getElementsByClassName("task selected"); // seleciona a div da tarefa selecionada 
+  let selectedTask = document.getElementsByClassName("task selected"); // seleciona a div da tarefa clicada
   let days = document.querySelector("#days"); //seleciona a lista de dias
-  let taskDiv = document.querySelector(".task"); // div que está a tarefa sem estar selecionada
-  let taskColor = taskDiv.style.backgroundColor; // seleciona a cor da tarefa selecionada
+  let taskDiv = document.querySelector(".task"); // div que está a tarefa
+  let taskColor = taskDiv.style.backgroundColor; // seleciona a cor da tarefa clicada
 
   days.addEventListener("click", function (event) {
     let eventTargetColor = event.target.style.color; //seleciona a cor que está nos dias
 
-    if (selectedTask.length > 0 && eventTargetColor !== taskColor) { //se a div da tarefa estiver selecioanda e a cor do dia for diferente da cor da tarefa
+    if (selectedTask.length > 0 && eventTargetColor !== taskColor) {
+      //se a div da tarefa estiver selecioanda e a cor do dia for diferente da cor da tarefa
       let color = selectedTask[0].style.backgroundColor; // adcionar a cor que esta na tarefa selecionada a uma variavel
       event.target.style.color = color; //atribui a cor ao dia clicado
-    } else if (eventTargetColor === taskColor && selectedTask.length !== 0) { //se a cor do dia for igual a cor da tarefa e tiver alguma tarefa selecionada
-      event.target.style.color = "rgb(119,119,119)"; //retona a cor original 
+    } else if (eventTargetColor === taskColor && selectedTask.length !== 0) {
+      //se a cor do dia for igual a cor da tarefa e tiver alguma tarefa selecionada
+      event.target.style.color = "rgb(119,119,119)"; //retona a cor original
     }
   });
 }
@@ -231,3 +233,32 @@ setDayColor();
 /* Vamos adicionar compromissos ao seu calendário? Implemente uma função que, ao digitar um compromisso na caixa de texto "COMPROMISSOS", adiciona o item à lista "MEUS COMPROMISSOS" ao clicar no botão "ADICIONAR".
 Se nenhum caractere for inserido no campo input , a função deve retornar um alert com uma mensagem de erro ao clicar em "ADICIONAR".
 Ao pressionar a tecla "enter" o evento também deverá ser disparado. */
+function addNewTasks() {
+  let getInputContainer = document.querySelector("#task-input"); //seleciona o elemento pai do input
+  let getInputButton = document.querySelector("#btn-add"); // seleciona o elemento botao adicionar
+  let getTaskList = document.querySelector(".task-list"); // seleciona a ul onde as tarefas estão no html
+
+  getInputButton.addEventListener("click", function () {
+    if (getInputContainer.value.length > 0) {
+      //se o campo input não estiver vazio
+      let newLi = document.createElement("li"); //cria uma nova li dentro da ul
+      newLi.innerHTML = getInputContainer.value; //adiona o valor do input a li
+
+      getTaskList.appendChild(newLi); // adiciona a li como filha da ul
+      getInputContainer.value = ""; // zera o valor do input depois depois de adiconada
+    } else {
+      alert("Error! Digite alguma tarefa!");
+    }
+  });
+
+  getInputContainer.addEventListener("keyup", function (event) {
+    if (event.key === "Enter" && getInputContainer.value.length > 0) {
+      let newLi = document.createElement("li");
+      newLi.innerText = getInputContainer.value;
+
+      getTaskList.appendChild(newLi);
+      getInputContainer.value = "";
+    }
+  });
+}
+addNewTasks();
