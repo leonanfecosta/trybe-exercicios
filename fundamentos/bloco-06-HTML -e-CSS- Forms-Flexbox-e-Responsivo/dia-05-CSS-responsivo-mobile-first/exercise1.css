@@ -1,7 +1,8 @@
-/*
+/* 
  * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
  * apply a natural box layout model to all elements, but allowing components to change
  */
+ 
 html {
     box-sizing: border-box;
 }
@@ -70,11 +71,6 @@ figcaption {
     figure {
         width: 45%;
         margin-right: 4.5%;
-    }
-
-    section {
-        display: flex;
-        flex-wrap: wrap;
     }
 }
 
