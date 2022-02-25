@@ -1,7 +1,122 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+p,
+h1,
+h2,
+h3 {
+  padding: 0 8%;
+}
+
+aside ul li {
+  margin: 0 8%;
+}
+
+header {
+  background-color: rgb(20, 19, 19);
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  border-radius: 10px;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header p {
+  text-align: center;
+  font-size: x-large;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-color: rgb(226, 173, 173);
+    font-size: 100%;
   }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
+
+  header {
+    width: 90%;
+    margin: 6% auto;
+    justify-content: space-around;
+    align-items: center;
   }
+
+  header nav ul li {
+    padding: 5px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+  body {
+    background-color: rgb(160, 160, 218);
+    font-size: 120%;
+  }
+
+  header {
+    width: 90%;
+    margin: 5% auto;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  header nav ul {
+    display: flex;
+  }
+
+  header nav ul li {
+    padding: 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: rgb(209, 209, 144);
+    font-size: 130%;
+  }
+
+  .container {
+    flex-wrap: nowrap;
+  }
+
+  header {
+    width: 90%;
+    margin: 6% auto;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  header p {
+    font-size: 40px;
+  }
+
+  header nav ul {
+    display: flex;
+  }
+
+  header nav ul li {
+    padding: 10px;
+    font-size: 30px;
+  }
+}
