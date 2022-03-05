@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-2: _[HTML & CSS - Primeiros passos em CSS](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-03-introdu%C3%A7%C3%A3o-a-html-e-css/dia-02-html-css-primeiros-passos-em-css)_
 - [x] 3-3: _[HTML & CSS - Seletores e posicionamento](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-03-introdu%C3%A7%C3%A3o-a-html-e-css/dia-03-html-css-seletores-e-posicionamento)_
 - [x] 3-4: _[HTML Semântico](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-03-introdu%C3%A7%C3%A3o-a-html-e-css/dia-04-html-css-html-sem%C3%A2ntico)_
-- [ ] 3-5: _Projeto - HTML & CSS_
+- [x] 3-5: _Projeto - HTML & CSS_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -33,34 +33,35 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-2: _[JavaScript - Array e loop For](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-04-introdu%C3%A7%C3%A3o-%C3%A0-javascript-e-l%C3%B3gica-de-programa%C3%A7%C3%A3o/dia-02-javascript-array-e-loop-for)_
 - [x] 4-3: _[JavaScript - Lógica de Programação e Algoritmos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-04-introdu%C3%A7%C3%A3o-%C3%A0-javascript-e-l%C3%B3gica-de-programa%C3%A7%C3%A3o/dia-03-javascript-l%C3%B3gica-de-programa%C3%A7%C3%A3o-e-algoritmos)_
 - [x] 4-4: _[JavaScript - Objetos e funções](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-04-introdu%C3%A7%C3%A3o-%C3%A0-javascript-e-l%C3%B3gica-de-programa%C3%A7%C3%A3o/dia-04-javascript-objetos-e-fun%C3%A7%C3%B5es)_
-- [ ] 4-5: _Projeto - Playground Functions_
+- [x] 4-5: _Projeto - Playground Functions_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [ ] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Meme Generator]()_
-- [ ] 5-6: _[Projeto - Arte com Pixels]()_
-- [ ] 5-7: _[Projeto - Lista de tarefas]()_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto - Carta Misteriosa]()_
+- [x] 5-1: _[JavaScript - DOM e seletores](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-DOM-eventos-e-web-storage/dia-01-DOM-e-seletores)
+- [x] 5-2: _[JavaScript - Trabalhando com elementos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-DOM-eventos-e-web-storage/dia-02-trabalhando-com-elementos)_
+- [x] 5-3: _[JavaScript - Eventos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-DOM-eventos-e-web-storage/dia-03-eventos)_
+- [x] 5-4: _[JavaScript - Web Storage](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-DOM-eventos-e-web-storage/dia-04-web-storage)_
+- [ ] 5-5: [Projeto - Meme Generator]()_
+- [x] 5-6: [Projeto - Arte com Pixels](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/pixels-art)_
+- [x] 5-7: [Projeto - Lista de tarefas](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/todo-list)_
+- [ ] 5-7: [Projeto - Adivinhe a Cor]()_
+- [x] 5-7: [Projeto - Carta Misteriosa](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/mistery-letter)_
 
 ##### Bloco 6: HTML & CSS avançado
 
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
+- [x] 6-1: _[HTML & CSS - Forms](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-06-HTML%20-e-CSS-%20Forms-Flexbox-e-Responsivo/dia-01-Forms)_
+- [x] 6-2: _[Bibliotecas JavaScript e Frameworks CSS](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-06-HTML%20-e-CSS-%20Forms-Flexbox-e-Responsivo/dia-02-bibliotecas-javascript-e-frameworks-css)_
+- [x] 6-3: [CSS Flexbox - Part 1_](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-06-HTML%20-e-CSS-%20Forms-Flexbox-e-Responsivo/dia-03-CSS-flexbox-parte-1)
+- [x] 6-4: _[CSS Flexbox - Part 2](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-06-HTML%20-e-CSS-%20Forms-Flexbox-e-Responsivo/dia-04-CSS-flexbox-parte-2)_
+- [x] 6-5: _[CSS Responsivo - Mobile First](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-06-HTML%20-e-CSS-%20Forms-Flexbox-e-Responsivo/dia-05-CSS-responsivo-mobile-first)_
+- [x] 6-6: [Projeto - TrybeWarts](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/trybewarts)
+
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Testes unitários em JavaScript_
+- [x] 7-1: [JavaScript ES6 - let, const, arrow functions e template literals](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-07-introdu%C3%A7%C3%A3o-%C3%A0-javascript-es6-e-testes-unit%C3%A1rios/dia-01-let-const-arrow-functions-e-template-literal)
+- [x] 7-2: [JavaScript ES6 - Objects](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-07-introdu%C3%A7%C3%A3o-%C3%A0-javascript-es6-e-testes-unit%C3%A1rios/dia-02-fluxo-de-exce%C3%A7%C3%A3o-e-objetos)
+- [ ] 7-3: [Testes unitários em JavaScript]()
 - [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
 ##### Bloco 8: JavaScript ES6
