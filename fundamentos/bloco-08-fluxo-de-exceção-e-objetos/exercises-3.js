@@ -18,9 +18,8 @@ const lesson3 = {
   turno: "noite",
 };
 
-const addKeyValue = (obj, key, value) => (obj[key] = value);
-
 //Crie uma função para adicionar o turno da noite na lesson2 . Essa função deve possuir três parâmetros, sendo eles: o objeto a ser modificado, a chave que deverá ser adicionada e o valor dela.
+const addKeyValue = (obj, key, value) => (obj[key] = value);
 addKeyValue(lesson2, "turno", "noite");
 //   console.table(lesson2);
 
@@ -44,9 +43,9 @@ const allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
 //Usando o objeto criado no exercício 5, crie uma função que retorne o número total de estudantes em todas as aulas.
 const getNumbersOfStudents = (obj) =>{
     let total = 0;
-    const array = Object.keys(obj);
-    for (index in array) {
-      total += obj[array[index]].numeroEstudantes;
+    const array = Object.keys(obj); // retorna um array com todas as keys (lesson1, lesson2 e lesson3)
+    for (index in array) { //itera sobre o array criado
+      total += obj[array[index]].numeroEstudantes; //percorre cada posição dos objetos dentro do objetos allLessons, passando por cada chave gerada do array e acessa propriedade numero de estudantes para realizar a soma
     }
     return total;
   };
@@ -58,13 +57,13 @@ const getNumbersOfStudents = (obj) =>{
 
   //Crie uma função que verifique se o par (chave / valor) existe na função. Essa função deve possuir três parâmetros, sendo eles: o objeto, o nome da chave e o valor da chave. Exemplo:
 const verifyPair = (obj, key, value) => {
-    const arr = Object.entries(obj);
+    const arr = Object.entries(obj);//tranforma o objeto em um array de arrays
     let isEquals = false;
-    console.table(arr);
+    console.log(arr);
 
-    for (let index in arr) {
+    for (let index in arr) { //percorre o array gerado
         if (arr[index][0] === key && arr[index][1] === value) isEquals = true;
     }
     return isEquals;
 };
-console.log(verifyPair(lesson2,'professor','Bruno'));
+console.log(verifyPair(lesson1,'professor','Bruno'));

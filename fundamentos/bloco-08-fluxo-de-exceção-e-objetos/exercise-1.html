@@ -33,10 +33,9 @@
           const result = parseInt(value1) + parseInt(value2);
           verifyIsNumber(value1, value2);
           document.getElementById("result").innerHTML = `Resultado: ${result}`;
-          document.getElementById("value1").value = "";
-          document.getElementById("value2").value = "";
         } catch (e) {
           document.getElementById("result").innerHTML = `Erro: ${e.message}`;
+        } finally {
           document.getElementById("value1").value = "";
           document.getElementById("value2").value = "";
         }
