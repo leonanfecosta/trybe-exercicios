@@ -63,5 +63,5 @@ const searchEmployee = (id, detail) => {
   }
   return employee[detail];
 };
-
+console.log( searchEmployee("1256-4", "specialities"));
 module.exports = searchEmployee;
