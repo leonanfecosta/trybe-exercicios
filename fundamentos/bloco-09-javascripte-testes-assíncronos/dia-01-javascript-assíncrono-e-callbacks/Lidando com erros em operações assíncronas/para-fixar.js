@@ -8,22 +8,24 @@ const printErrorMessage = (error) => console.log(`Error getting country: ${error
 const getCountry = (onSuccess, callback) => {
   setTimeout(() => {
     const didOperationSucceed = Math.random() >= 0.5;
-    if(didOperationSucceed) {
+    if (didOperationSucceed) {
       const country = {
-        name: "Brazil",
+        name: 'Brazil',
         hdi: 0.759,
-        currency: "Real",
+        currency: 'Real',
       };
       onSuccess(country);
     } else {
-      const errorMessage = "Country could not be found";
+      const errorMessage = 'Country could not be found';
       callback(errorMessage);
     }
   }, delay());
 };
 
-// Deve imprimir "Returned country is Brazil" no sucesso ou "Error getting country: Country could not be found" em caso de falha
+// Deve imprimir "Returned country is Brazil" no sucesso ou
+// "Error getting country: Country could not be found" em caso de falha
 getCountry(countryName, printErrorMessage);
 
-// Deve imprimir "Brazil's currency is the Real" no sucesso, ou "Error getting country: Country could not be found" em caso de falha
+// Deve imprimir "Brazil's currency is the Real" no sucesso, ou
+// "Error getting country: Country could not be found" em caso de falha
 getCountry(countryCurrency, printErrorMessage);
