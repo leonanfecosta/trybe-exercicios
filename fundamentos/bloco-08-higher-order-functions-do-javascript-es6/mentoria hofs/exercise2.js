@@ -5,14 +5,19 @@ retornando uma string no seguinte formato: "Os Melhores álbuns do Radiohead: In
 */
 
 const getBestAlbuns = () => {
-  const { bandName, bestAlbuns } = data.bands[0];
-  const albuns = bestAlbuns.reduce((acc, { name }) => {
+  const {
+    bandName,
+    bestAlbuns
+  } = data.bands[0];
+  const albuns = bestAlbuns.reduce((acc, {
+    name
+  }) => {
     acc.push(name);
     console.log(acc);
     return acc;
   }, []);
 
-  return `Os melhores álbuns do ${bandName}: ${albuns}` 
+  return `Os melhores álbuns do ${bandName}: ${albuns}`
 
 }
 console.log(getBestAlbuns());
