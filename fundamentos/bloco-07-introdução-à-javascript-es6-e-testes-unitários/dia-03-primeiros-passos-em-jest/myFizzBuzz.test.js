@@ -5,15 +5,14 @@ Faça uma chamada com um número divisível por 5 e verifique se o retorno é o 
 Faça uma chamada com um número que não é divisível por 3 ou 5 e verifique se o retorno é o esperado
 Faça uma chamada com um parâmetro que não é um número e verifique se o retorno é o esperado */
 
-const myFizzBuzz = require("./myFizzBuzz.js");
+const myFizzBuzz = require('./myFizzBuzz.js');
 
-describe("testa a função myFizzbuzz", () => {
-  it("verifica se o valor retornado é o esperado dado um numero", () => {
-    expect(myFizzBuzz(15)).toBe("fizzbuzz");
-    expect(myFizzBuzz(3)).toBe("fizz");
-    expect(myFizzBuzz(5)).toBe("buzz");
+describe('testa a função myFizzbuzz', () => {
+  it('verifica se o valor retornado é o esperado dado um numero', () => {
+    expect(myFizzBuzz(15)).toBe('fizzbuzz');
+    expect(myFizzBuzz(3)).toBe('fizz');
+    expect(myFizzBuzz(5)).toBe('buzz');
     expect(myFizzBuzz(7)).toBe(7);
     expect(myFizzBuzz('8')).toBe(false);
-
   });
 });
