@@ -37,15 +37,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [x] 5-1: _[JavaScript - DOM e seletores](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-DOM-eventos-e-web-storage/dia-01-DOM-e-seletores)
+- [x] 5-1: [JavaScript - DOM e seletores](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-DOM-eventos-e-web-storage/dia-01-DOM-e-seletores)
 - [x] 5-2: _[JavaScript - Trabalhando com elementos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-DOM-eventos-e-web-storage/dia-02-trabalhando-com-elementos)_
 - [x] 5-3: _[JavaScript - Eventos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-DOM-eventos-e-web-storage/dia-03-eventos)_
 - [x] 5-4: _[JavaScript - Web Storage](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-DOM-eventos-e-web-storage/dia-04-web-storage)_
-- [ ] 5-5: [Projeto - Meme Generator]()_
-- [x] 5-6: [Projeto - Arte com Pixels](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/pixels-art)_
-- [x] 5-7: [Projeto - Lista de tarefas](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/todo-list)_
-- [ ] 5-7: [Projeto - Adivinhe a Cor]()_
-- [x] 5-7: [Projeto - Carta Misteriosa](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/mistery-letter)_
+- [ ] 5-5: [Projeto - Meme Generator]
+- [x] 5-6: [Projeto - Arte com Pixels](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/pixels-art)
+- [x] 5-7: [Projeto - Lista de tarefas](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/todo-list)
+- [ ] 5-7: [Projeto - Adivinhe a Cor]
+- [x] 5-7: [Projeto - Carta Misteriosa](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/mistery-letter)
 
 ##### Bloco 6: HTML & CSS avançado
 
@@ -61,29 +61,24 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 7-1: [JavaScript ES6 - let, const, arrow functions e template literals](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-07-introdu%C3%A7%C3%A3o-%C3%A0-javascript-es6-e-testes-unit%C3%A1rios/dia-01-let-const-arrow-functions-e-template-literal)
 - [x] 7-2: [JavaScript ES6 - Objects](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-07-introdu%C3%A7%C3%A3o-%C3%A0-javascript-es6-e-testes-unit%C3%A1rios/dia-02-fluxo-de-exce%C3%A7%C3%A3o-e-objetos)
-- [ ] 7-3: [Testes unitários em JavaScript]()
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [x] 7-3: Testes unitários em JavaScript
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
 ##### Bloco 8: JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]()_
+- [x] 8-1: [JavaScript ES6 - Introdução a Higher Order Functions]((https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-08-higher-order-functions-do-javascript-es6/dia-01-introdu%C3%A7%C3%A3o-a-higher-order-functions))
+- [x] 8-2: [JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-08-higher-order-functions-do-javascript-es6/dia-02-higher-order-functions-forEach-find-some-every-sort)
+- [x] 8-3: [JavaScript ES6 - Higher Order Functions - map e filter](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-08-higher-order-functions-do-javascript-es6/dia-03-higher-order-functions-map-e-filter)
+- [x] 8-4: [JavaScript ES6 - Higher Order Functions - reduce](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-08-higher-order-functions-do-javascript-es6/dia-04-higher-orde-functions-reduce)
+- [x] 8-5: [JavaScript ES6 - spread operator, rest parameter, destructuring e mais](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-08-higher-order-functions-do-javascript-es6/dia-05-spread-operator-par%C3%A2metro%20rest-destructuring-e-mais)
+- [x] 8-6: [Projeto - Zoo functions]
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
-
-##### Bloco 10: Jest
-
-- [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes Assíncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
+- [x] 9-1: [JavaScript Assíncrono e Callbacks](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-09-javascripte-testes-ass%C3%ADncronos/dia-01-javascript-ass%C3%ADncrono-e-callbacks)
+- [x] 9-2: [fetchAPI e async/awayt](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-09-javascripte-testes-ass%C3%ADncronos/dia-02-fetchAPI-e-async-await)
+- [x] 9-3: [Testes assíncronos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-09-javascripte-testes-ass%C3%ADncronos/dia-03-testes-ass%C3%ADncronos/Mentoria%20180)
+- [x] 9-3: _[Projeto - Carrinho de Compras]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
