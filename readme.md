@@ -81,9 +81,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 10: Introdução - React
 
-- [x] 10-1: ['Hello, world!' no React!]([trybe-exercicios/front-end/bloco-10-introdução-à-react/dia-01-hello-world-no-react at main · leonanfecosta/trybe-exercicios (github.com)](https://github.com/leonanfecosta/trybe-exercicios/tree/main/front-end/bloco-10-introdu%C3%A7%C3%A3o-%C3%A0-react/dia-01-hello-world-no-react))
-- [x] 10-2: [Componentes React]([trybe-exercicios/front-end/bloco-10-introdução-à-react/dia-02-componentes-react at main · leonanfecosta/trybe-exercicios (github.com)](https://github.com/leonanfecosta/trybe-exercicios/tree/main/front-end/bloco-10-introdu%C3%A7%C3%A3o-%C3%A0-react/dia-02-componentes-react))
-- [ ] 10-3: _[Projeto - Movie Cards Library]()_
+- [x] 10-1: ['Hello, world!' no React!](https://github.com/leonanfecosta/trybe-exercicios/tree/main/front-end/bloco-10-introdu%C3%A7%C3%A3o-%C3%A0-react/dia-01-hello-world-no-react)
+- [x] 10-2: [Componentes React](https://github.com/leonanfecosta/trybe-exercicios/tree/main/front-end/bloco-10-introdu%C3%A7%C3%A3o-%C3%A0-react/dia-02-componentes-react)
+- [ ] 10-3: _[Projeto - Solar System]()_
 
 ##### Bloco 11: React
 
