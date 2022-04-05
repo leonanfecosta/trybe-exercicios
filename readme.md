@@ -41,11 +41,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-2: _[JavaScript - Trabalhando com elementos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-DOM-eventos-e-web-storage/dia-02-trabalhando-com-elementos)_
 - [x] 5-3: _[JavaScript - Eventos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-DOM-eventos-e-web-storage/dia-03-eventos)_
 - [x] 5-4: _[JavaScript - Web Storage](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-05-javascript-DOM-eventos-e-web-storage/dia-04-web-storage)_
-- [ ] 5-5: [Projeto - Meme Generator]
-- [x] 5-6: [Projeto - Arte com Pixels](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/pixels-art)
-- [x] 5-7: [Projeto - Lista de tarefas](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/todo-list)
-- [ ] 5-7: [Projeto - Adivinhe a Cor]
-- [x] 5-7: [Projeto - Carta Misteriosa](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/mistery-letter)
+- [x] 5-5: [Projeto - Arte com Pixels](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/pixels-art)
+- [x] 5-6: [Projeto - Lista de tarefas](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/todo-list)
+- [x] 5-6: [Projeto - Carta Misteriosa](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/mistery-letter)
 
 ##### Bloco 6: HTML & CSS avançado
 
@@ -55,7 +53,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-4: _[CSS Flexbox - Part 2](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-06-HTML%20-e-CSS-%20Forms-Flexbox-e-Responsivo/dia-04-CSS-flexbox-parte-2)_
 - [x] 6-5: _[CSS Responsivo - Mobile First](https://github.com/leonanfecosta/trybe-exercicios/tree/main/fundamentos/bloco-06-HTML%20-e-CSS-%20Forms-Flexbox-e-Responsivo/dia-05-CSS-responsivo-mobile-first)_
 - [x] 6-6: [Projeto - TrybeWarts](https://github.com/leonanfecosta/leonanfecosta.github.io/tree/main/projetos/trybewarts)
-
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
@@ -82,17 +79,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 11: Introdução - React
+##### Bloco 10: Introdução - React
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]()_
+- [x] 10-1: ['Hello, world!' no React!]([trybe-exercicios/front-end/bloco-10-introdução-à-react/dia-01-hello-world-no-react at main · leonanfecosta/trybe-exercicios (github.com)](https://github.com/leonanfecosta/trybe-exercicios/tree/main/front-end/bloco-10-introdu%C3%A7%C3%A3o-%C3%A0-react/dia-01-hello-world-no-react))
+- [x] 10-2: [Componentes React]([trybe-exercicios/front-end/bloco-10-introdução-à-react/dia-02-componentes-react at main · leonanfecosta/trybe-exercicios (github.com)](https://github.com/leonanfecosta/trybe-exercicios/tree/main/front-end/bloco-10-introdu%C3%A7%C3%A3o-%C3%A0-react/dia-02-componentes-react))
+- [ ] 10-3: _[Projeto - Movie Cards Library]()_
 
-##### Bloco 12: React
+##### Bloco 11: React
 
-- [ ] 12-1: _Components com estado_
-- [ ] 12-2: _Eventos e formulários no React_
-- [ ] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [ ] 11-1: _Components com estado_
+- [ ] 11-2: _Eventos e formulários no React_
+- [ ] 11-3: _[Projeto - Movie Cards Library Stateful]()_
 
 ##### Bloco 13: React
 
