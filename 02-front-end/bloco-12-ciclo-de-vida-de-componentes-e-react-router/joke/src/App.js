@@ -1,5 +1,5 @@
 import './App.css';
-import DadJoke from './DadJoke';
+import DadJoke from './components/DadJoke';
 
 function App() {
   return (
