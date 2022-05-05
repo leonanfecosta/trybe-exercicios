@@ -14,17 +14,17 @@ class App extends Component {
     this.addTodo = this.addTodo.bind(this);
   }
 
-  selectTodo = (todo) => {
-    this.setState({ selectedTodo: todo });
+  selectTodo = (todoIndex) => {
+    this.setState({ selectedTodo: todoIndex });
   }
 
   addTodo(todo) {
     this.setState((state) => ({ listTodo: [...state.listTodo, todo] }));
   }
 
-  removerTodo(todo) {
+  removerTodo(todoIndex) {
     this.setState((prevState) => ({
-      listTodo: prevState.listTodo.filter((item) => item !== todo),
+      listTodo: prevState.listTodo.filter((_item, index) => index !== todoIndex),
     }));
   }
 
@@ -37,13 +37,13 @@ class App extends Component {
           { listTodo.map((todo, index) => (
             <li key={ index + 1 }>
               <Item content={ todo } />
-              <button type="button" onClick={ () => this.selectTodo(todo) }>
+              <button type="button" onClick={ () => this.selectTodo(index) }>
                 Selecionar
               </button>
               <button
                 type="button"
-                disabled={ !(selectedTodo && selectedTodo === todo) }
-                onClick={ () => this.removerTodo(todo) }
+                disabled={ !(selectedTodo !== null && selectedTodo === index) }
+                onClick={ () => this.removerTodo(index) }
               >
                 Remover
               </button>
