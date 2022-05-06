@@ -38,9 +38,9 @@ describe('Teste da aplicação toda', () => {
       img: 'https://digimon.shadowsmith.com/img/agumon.jpg',
     }];
 
-    global.fetch = jest.fn(() => Promise.resolve({
-      json: () => Promise.resolve(digimon),
-    }));
+    const fetch = jest.spyOn(global, 'fetch').mockResolvedValue({
+      json: () => digimon,
+    });
 
     render(<App />);
 
@@ -59,16 +59,16 @@ describe('Teste da aplicação toda', () => {
     const digimonLevel = screen.getByText(/Rookie/i);
     expect(digimonLevel).toBeInTheDocument();
 
-    expect(global.fetch).toHaveBeenCalledTimes(1);
-    expect(global.fetch).toHaveBeenCalledWith('https://digimon-api.vercel.app/api/digimon/name/Agumon');
+    expect(fetch).toHaveBeenCalledTimes(1);
+    expect(fetch).toHaveBeenCalledWith('https://digimon-api.vercel.app/api/digimon/name/Agumon');
   });
 
   it('Busca um digimon inexistente e verifica se o erro é exibido', async () => {
     const ErrorMsg = 'Digimon not found';
 
-    global.fetch = jest.fn(() => Promise.resolve({
-      json: () => Promise.resolve({ ErrorMsg }),
-    }));
+    const fetch = jest.spyOn(global, 'fetch').mockResolvedValue({
+      json: () => ({ ErrorMsg }),
+    });
 
     render(<App />);
 
@@ -81,14 +81,14 @@ describe('Teste da aplicação toda', () => {
     const error = await screen.findByText(ErrorMsg);
     expect(error).toBeInTheDocument();
 
-    expect(global.fetch).toHaveBeenCalledTimes(1);
-    expect(global.fetch).toHaveBeenCalledWith('https://digimon-api.vercel.app/api/digimon/name/Pikachu');
+    expect(fetch).toHaveBeenCalledTimes(1);
+    expect(fetch).toHaveBeenCalledWith('https://digimon-api.vercel.app/api/digimon/name/Pikachu');
   });
 
   it('Caso a caixa de busca esteja vazia, não deve buscar nada', () => {
     render(<App />);
 
-    global.fetch = jest.fn();
+    const fetch = jest.spyOn(global, 'fetch');
 
     const input = screen.getByRole('textbox', { name: /Digimon/i });
     expect(input).toHaveValue('');
@@ -96,13 +96,14 @@ describe('Teste da aplicação toda', () => {
     const button = screen.getByRole('button', { name: /Search Digimon/i });
     userEvent.click(button);
 
-    expect(global.fetch).not.toHaveBeenCalled();
+    expect(fetch).not.toHaveBeenCalled();
   });
 
   it('Testa se a api quebra a tela quando não volta nada (não deve falhar)', () => {
     render(<App />);
 
-    global.fetch = jest.fn(() => new Error('API error'));
+    const fetch = jest.spyOn(global, 'fetch')
+      .mockResolvedValue(() => new Error('Error'));
 
     const input = screen.getByRole('textbox', { name: /Digimon/i });
     userEvent.type(input, 'Teste');
@@ -110,6 +111,6 @@ describe('Teste da aplicação toda', () => {
     const button = screen.getByRole('button', { name: /Search Digimon/i });
     userEvent.click(button);
 
-    expect(global.fetch).toHaveBeenCalledTimes(1);
+    expect(fetch).toHaveBeenCalledTimes(1);
   });
 });
