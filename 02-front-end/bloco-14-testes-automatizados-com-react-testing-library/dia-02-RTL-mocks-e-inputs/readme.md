@@ -14,8 +14,6 @@ Os exercícios estão divididos em duas partes, primeiro vamos praticar os *moc
 
 - Primeiro crie uma nova aplicação e instale o jest para rodar os nossos testes, para isso execute os comandos abaixo:
 
-
-
 ```bash
 npm init -y
 
@@ -23,8 +21,6 @@ npm install --save-dev jest
 ```
 
 - Agora basta alterar o script do test no arquivo **package.json**, inserindo o jest:
-
-
 
 ```json
 ...
@@ -82,5 +78,3 @@ Para os exercícios a seguir:
   - O primeiro deve interpretar que a requisição se resolveu e teve como valor "request sucess".
   - O segundo deve interpretar que a requisição falhou e ter como valor "request failed".
 - Crie todos os testes que achar necessário.
-
-#### 🚀 Parte 2
