@@ -10,7 +10,7 @@ function gallery(state = INITIAL_STATE, action) {
   switch (action.type) {
   case REQUEST_API:
     return {
-      ...state,
+      ...state,1n
       isLoading: true,
       defaultImg: true,
     };
