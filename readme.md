@@ -83,51 +83,52 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 10-1: ['Hello, world!' no React!](https://github.com/leonanfecosta/trybe-exercicios/tree/main/front-end/bloco-10-introdu%C3%A7%C3%A3o-%C3%A0-react/dia-01-hello-world-no-react)
 - [x] 10-2: [Componentes React](https://github.com/leonanfecosta/trybe-exercicios/tree/main/front-end/bloco-10-introdu%C3%A7%C3%A3o-%C3%A0-react/dia-02-componentes-react)
-- [ ] 10-3: _[Projeto - Solar System]()_
+- [x] 10-3: _[Projeto - Solar System](https://github.com/leonanfecosta/trybe-projects/tree/main/02-front-end/01-solar-system)_
 
 ##### Bloco 11: React
 
-- [ ] 11-1: _Components com estado_
-- [ ] 11-2: _Eventos e formulários no React_
-- [ ] 11-3: _[Projeto - Movie Cards Library Stateful]()_
+- [x] 11-1: [Components com estado](https://github.com/leonanfecosta/trybe-exercicios/tree/main/02-front-end/bloco-11-componentes-com-estado-eventos-e-formul%C3%A1rios-com-react/dia-01-componentes-com-estado-e-eventos)
+- [x] 11-2: [Eventos e formulários no React](https://github.com/leonanfecosta/trybe-exercicios/tree/main/02-front-end/bloco-11-componentes-com-estado-eventos-e-formul%C3%A1rios-com-react/dia-02-formularios-em-react)
+- [x] 11-3: [Projeto - Tryunfo](https://github.com/leonanfecosta/trybe-projects/tree/main/02-front-end/02-tryunfo)
 
-##### Bloco 13: React
 
-- [ ] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [ ] 13-2: _Ciclo de vida de componentes em React_
-- [ ] 13-3: _React Router_
-- [ ] 13-4: _[Projeto - Movie Cards Library CRUD]()_
+##### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-##### Bloco 14: Metodologias Ágeis
+- [x] 12-1: _[Ciclo de vida de componentes](https://github.com/leonanfecosta/trybe-exercicios/tree/main/02-front-end/bloco-12-ciclo-de-vida-de-componentes-e-react-router/dia-01-ciclo-de-vida-de-um-componente)
+- [x] 12-2: _[React Router](https://github.com/leonanfecosta/trybe-exercicios/tree/main/02-front-end/bloco-12-ciclo-de-vida-de-componentes-e-react-router/dia-02-react-router)
+- [x] 12-3: [Projeto - Trybetunes](https://github.com/leonanfecosta/trybetunes)
 
-- [ ] 14-1: _Metodologias Ágeis_
-- [ ] 14-2: _[Projeto - Frontend Online Store]()_
+##### Bloco 13: Metodologias Ágeis
 
-##### Bloco 15: Testes em React
+- [x] 13-1: _Metodologias Ágeis_
+- [x] 13-2: [Projeto - Frontend Online Store](https://github.com/leonanfecosta/frontend-online-store)
 
-- [ ] 15-1: _Testando React com a React Testing Library_
-- [ ] 15-2: _Testando React com a React Testing Library - Parte 2_
-- [ ] 15-3: _[Projeto - Testes em React]()_
+##### Bloco 14: Testes automatizados com React Testing Library
 
-##### Bloco 16: Introdução ao Redux
+- [x] 14-1: [RTL - Primeiros passos](https://github.com/leonanfecosta/trybe-exercicios/tree/main/02-front-end/bloco-14-testes-automatizados-com-react-testing-library/dia-01-RTL-primeiros-passos)
+- [x] 14-2: [RTL - Mocks e Inputs](https://github.com/leonanfecosta/trybe-exercicios/tree/main/02-front-end/bloco-14-testes-automatizados-com-react-testing-library/dia-02-RTL-mocks-e-inputs)
+- [x] 14-3: [RTL - Testando React Router](https://github.com/leonanfecosta/trybe-exercicios/tree/main/02-front-end/bloco-14-testes-automatizados-com-react-testing-library/dia-03-RTL-testando-react-router)
+- [x] 14-3: [Projeto - Testes em React](https://github.com/leonanfecosta/trybe-projects/tree/main/02-front-end/05-react-testing-library)_
 
-- [ ] 16-1: _Introdução ao Redux_
-- [ ] 16-2: _React com Redux - Parte 1_
-- [ ] 16-3: _React com Redux - Prática_
-- [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: _Testes síncronos com React-Redux_
-- [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
+##### Bloco 15: Gerenciamento de estado com Redux
 
-##### Bloco 17: Projeto React
+- [x] 15-1: [Introdução ao Redux - O estado global da aplicação](https://github.com/leonanfecosta/trybe-exercicios/tree/main/02-front-end/bloco-15-gerenciamento-de-estado-com-redux/dia-01-introdu%C3%A7%C3%A3o-ao-redux-o-estado%20global-da-aplica%C3%A7%C3%A3o)
+- [x] 15-2: [Usando o Redux no React](https://github.com/leonanfecosta/trybe-exercicios/tree/main/02-front-end/bloco-15-gerenciamento-de-estado-com-redux/dia-02-usando-o-redux-no-react)
+- [x] 15-3: [Usando o Redux no React - Prática](https://github.com/leonanfecosta/exercise-forms-redux)
+- [x] 15-4: [Usando o Redux no React - Actions Assíncronas](https://github.com/leonanfecosta/trybe-exercicios/tree/main/02-front-end/bloco-15-gerenciamento-de-estado-com-redux/dia-04-usando-o-redux-no-react-actions-ass%C3%ADncronas)
+- [x] 15-5: [Testes em React-Redux](https://github.com/leonanfecosta/trybe-exercicios/tree/main/02-front-end/bloco-15-gerenciamento-de-estado-com-redux/dia-05-testes-em-react-redux)
+- [x] 15-6: [Projeto - TrybeWallet](https://github.com/leonanfecosta/trybewallet)
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+##### Bloco 16: Projeto Jogo de Trivia
 
-##### Bloco 18: React & Context API
+- [x] 17-1: _[Projeto - Jogo de Trivia]()
 
-- [ ] 18-1: _Context API do React_
-- [ ] 18-2: _React Hooks - useState e useContext_
-- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+##### Bloco 17: Context API e React Hooks
+
+- [ ] 17-1: _Context API do React_
+- [ ] 17-2: _React Hooks - useState e useContext_
+- [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
+- [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
 ##### Bloco 19: Projeto Final de Front-end
 
