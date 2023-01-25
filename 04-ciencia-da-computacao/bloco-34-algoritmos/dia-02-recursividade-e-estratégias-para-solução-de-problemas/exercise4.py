@@ -6,4 +6,4 @@ def mdc(a, b):
     else:
         return mdc(b, a % b)
 
-print(mdc(10, 5))
+print(mdc(50, 20))
